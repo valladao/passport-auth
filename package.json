@@ -1,0 +1,31 @@
+{
+  "name": "passport-auth",
+  "version": "1.0.0",
+  "description": "Project from Flavio Copes Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valladao/passport-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valladao/passport-auth/issues"
+  },
+  "homepage": "https://github.com/valladao/passport-auth#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pg": "^8.7.1",
+    "pug": "^3.0.2",
+    "sequelize": "^6.6.5"
+  }
+}
